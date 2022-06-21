@@ -1,0 +1,657 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Tue Jun 21 10:46:50 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/marco/Documents/HPCproject/Compilers-autovectorization/src
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 1)
+MAKEFILE_LIST :=  Makefile ../makefiles/Makefile.defs /Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU
+# command line
+NO_OMP = 1
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/y2/_s5sly1s5px4j345282xwkgh0000gn/T/vscode-ipc-77e882f4-1dd0-463f-a483-d778eda7594f.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/opt/python@3.8/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 5)
+flags = -O3 -fstrict-aliasing -fivopts 
+# makefile (from `Makefile', line 8)
+libs = -lm
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 9)
+omp_flags = -fopenmp
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 15)
+ieee_math_flags = 
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Q1mqfUxT3j/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/marco/Documents/HPCproject/Compilers-autovectorization
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/marco
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/marco/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = marco
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SHLVL = 1
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 2)
+CC = gcc -std=c99 -fopenmp
+# environment
+MAKEOVERRIDES = ${-*-command-variables-*-}
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = marco
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 4)
+FC = gfortran
+# makefile
+.DEFAULT_GOAL := all
+# command line
+SUFFIX = _default
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 16)
+fast_math_flags = -ffast-math
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/y2/_s5sly1s5px4j345282xwkgh0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/marco/Library/Application Support/Code/1.68.1-main.sock
+# makefile
+MAKEFLAGS = Rrqp -- $(MAKEOVERRIDES)
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.10516397.10516403
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
+-*-command-variables-*- := SUFFIX=_default NO_OMP=1 COMPILER=GNU
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x4
+# environment
+COMMAND_MODE = unix2003
+# command line
+COMPILER = GNU
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 3)
+CXX = g++
+# makefile (from `Makefile', line 6)
+BIN_DIR = ../bin/$(COMPILER)
+# environment
+LC_ALL = C
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 8)
+novecflags = -fno-tree-vectorize
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU', line 7)
+vecflags = -ftree-vectorize
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `Makefile', line 4)
+COMMON_FILES = dummy.o common.o
+# environment
+MAKELEVEL := 1
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2771
+# variable set hash-table stats:
+# Load=83/1024=8%, Rehash=0, Collisions=5/132=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 10734286): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+../bin/GNU/tsvc_%: tsvc_%.o dummy.o common.o
+#  commands to execute (from `Makefile', line 13):
+	@mkdir -p $(BIN_DIR)
+	$(CC) $^ $(libs) -o $@$(SUFFIX)
+	
+
+%_novec.o: %.c .FORCE
+#  commands to execute (from `Makefile', line 17):
+	$(CC) $(flags) $(novecflags) -c -o $@ $<
+	
+
+%_vec.o: %.c .FORCE
+#  commands to execute (from `Makefile', line 20):
+	$(CC) $(flags) $(vecflags) -c -o $@ $<
+	
+
+%.o: %.c .FORCE
+#  commands to execute (from `Makefile', line 25):
+	$(CC) $(flags) $(vecflags) $(ieee_math_flags) -c -o $@ $<
+	
+
+# 4 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+../makefiles/Makefile.defs:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 10:46:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+dummy.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: ../bin/GNU/tsvc_vec ../bin/GNU/tsvc_novec
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+
+common.o: common.c .FORCE
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `common'
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 25):
+	$(CC) $(flags) $(vecflags) $(ieee_math_flags) -c -o $@ $<
+	
+
+.PHONY: .FORCE clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 10:46:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+common.c:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+tsvc.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 10:46:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU:
+#  Implicit rule search has been done.
+ 
+#  Last modified 2022-06-21 10:46:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+tsvc_vec.o: tsvc.c .FORCE
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `tsvc'
+#  File is an intermediate prerequisite.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+#  commands to execute (from `Makefile', line 20):
+	$(CC) $(flags) $(vecflags) -c -o $@ $<
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 32):
+	rm -f *.o *.s
+	
+
+dummy.o: dummy.c .FORCE
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `dummy'
+#  File is an intermediate prerequisite.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 25):
+	$(CC) $(flags) $(vecflags) $(ieee_math_flags) -c -o $@ $<
+	
+
+../bin/GNU/tsvc_vec: tsvc_vec.o dummy.o common.o
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: `vec'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/2=0%
+#  commands to execute (from `Makefile', line 13):
+	@mkdir -p $(BIN_DIR)
+	$(CC) $^ $(libs) -o $@$(SUFFIX)
+	
+
+# Not a target:
+../bin/GNU/tsvc_novec:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.FORCE:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := .FORCE
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/10=10%
+#  commands to execute (from `Makefile', line 29):
+	@true
+	
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=5/62=8%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 3
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 3975 / max = 3975 / min = 3975 / avg = 3975
+
+# Finished Make data base on Tue Jun 21 10:46:50 2022
+
+ 
+make: *** [all] Error 1
+
+
+# Make data base, printed on Tue Jun 21 10:46:50 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Users/marco/Documents/HPCproject/Compilers-autovectorization
+# makefile
+SHELL = /bin/sh
+ 
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+INFOPATH = /opt/homebrew/share/info:
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/y2/_s5sly1s5px4j345282xwkgh0000gn/T/vscode-ipc-77e882f4-1dd0-463f-a483-d778eda7594f.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /opt/homebrew/opt/python@3.8/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.Q1mqfUxT3j/Listeners
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Users/marco/Documents/HPCproject/Compilers-autovectorization
+# environment
+HOMEBREW_CELLAR = /opt/homebrew/Cellar
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+MANPATH = /opt/homebrew/share/man::
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/marco
+# default
+MAKEFILEPATH = $(shell /usr/bin/xcode-select -print-path 2>/dev/null || echo /Developer)/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/marco/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = marco
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = marco
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/y2/_s5sly1s5px4j345282xwkgh0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/marco/Library/Application Support/Code/1.68.1-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+ 
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.10516397.10516403
+# environment
+HOMEBREW_PREFIX = /opt/homebrew
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# automatic
++F = $(notdir $+)
+# environment
+HOMEBREW_REPOSITORY = /opt/homebrew
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x4
+# environment
+COMMAND_MODE = unix2003
+# makefile (from `Makefile', line 2)
+COMPILER = GNU
+# default
+MAKEFILES := 
+# makefile (from `Makefile', line 8)
+SRC_DIR = ./src
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/local/include
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 2771
+# variable set hash-table stats:
+# Load=69/1024=7%, Rehash=0, Collisions=1/108=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777233, inode 10734186): 10 files, no impossibilities.
+
+# 10 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: `'
+#  Modification time never checked.
+#  File has been updated.
+#  Failed to be updated.
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=4/22=18%
+#  commands to execute (from `Makefile', line 11):
+	@$(MAKE) -C $(SRC_DIR) COMPILER=$(COMPILER)                NO_OMP=1 SUFFIX=_default
+	@$(MAKE) -C $(SRC_DIR) COMPILER=$(COMPILER) FAST_MATH=1    NO_OMP=1 SUFFIX=_relaxed
+	@$(MAKE) -C $(SRC_DIR) COMPILER=$(COMPILER) PRECISE_MATH=1 NO_OMP=1 SUFFIX=_precise
+	
+
+.PHONY: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-21 10:46:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `Makefile', line 17):
+	$(MAKE) -C $(SRC_DIR) COMPILER=$(COMPILER) clean
+	
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/22=0%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 1
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+ 
+
+# Finished Make data base on Tue Jun 21 10:46:50 2022
+
+ 

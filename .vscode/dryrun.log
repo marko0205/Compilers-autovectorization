@@ -1,0 +1,49 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Users/marco/Documents/HPCproject/Compilers-autovectorization'
+/Library/Developer/CommandLineTools/usr/bin/make -C ./src COMPILER=GNU                NO_OMP=1 SUFFIX=_default
+ 
+make[1]: Entering directory `/Users/marco/Documents/HPCproject/Compilers-autovectorization/src'
+true
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts  -ftree-vectorize -c -o tsvc_vec.o tsvc.c
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts  -ftree-vectorize  -c -o dummy.o dummy.c
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts  -ftree-vectorize  -c -o common.o common.c
+mkdir -p ../bin/GNU
+gcc -std=c99 -fopenmp tsvc_vec.o dummy.o common.o -lm -o ../bin/GNU/tsvc_vec_default
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts  -fno-tree-vectorize -c -o tsvc_novec.o tsvc.c
+mkdir -p ../bin/GNU
+gcc -std=c99 -fopenmp tsvc_novec.o dummy.o common.o -lm -o ../bin/GNU/tsvc_novec_default
+rm tsvc_novec.o tsvc_vec.o common.o dummy.o
+make[1]: Leaving directory `/Users/marco/Documents/HPCproject/Compilers-autovectorization/src'
+/Library/Developer/CommandLineTools/usr/bin/make -C ./src COMPILER=GNU FAST_MATH=1    NO_OMP=1 SUFFIX=_relaxed
+ 
+make[1]: Entering directory `/Users/marco/Documents/HPCproject/Compilers-autovectorization/src'
+true
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts  -ffast-math -ftree-vectorize -c -o tsvc_vec.o tsvc.c
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts  -ffast-math -ftree-vectorize  -c -o dummy.o dummy.c
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts  -ffast-math -ftree-vectorize  -c -o common.o common.c
+mkdir -p ../bin/GNU
+gcc -std=c99 -fopenmp tsvc_vec.o dummy.o common.o -lm -o ../bin/GNU/tsvc_vec_relaxed
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts  -ffast-math -fno-tree-vectorize -c -o tsvc_novec.o tsvc.c
+mkdir -p ../bin/GNU
+gcc -std=c99 -fopenmp tsvc_novec.o dummy.o common.o -lm -o ../bin/GNU/tsvc_novec_relaxed
+rm tsvc_novec.o tsvc_vec.o common.o dummy.o
+make[1]: Leaving directory `/Users/marco/Documents/HPCproject/Compilers-autovectorization/src'
+ 
+/Library/Developer/CommandLineTools/usr/bin/make -C ./src COMPILER=GNU PRECISE_MATH=1 NO_OMP=1 SUFFIX=_precise
+ 
+make[1]: Entering directory `/Users/marco/Documents/HPCproject/Compilers-autovectorization/src'
+true
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts   -ftree-vectorize -c -o tsvc_vec.o tsvc.c
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts   -ftree-vectorize  -c -o dummy.o dummy.c
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts   -ftree-vectorize  -c -o common.o common.c
+mkdir -p ../bin/GNU
+gcc -std=c99 -fopenmp tsvc_vec.o dummy.o common.o -lm -o ../bin/GNU/tsvc_vec_precise
+gcc -std=c99 -fopenmp -O3 -fstrict-aliasing -fivopts   -fno-tree-vectorize -c -o tsvc_novec.o tsvc.c
+mkdir -p ../bin/GNU
+gcc -std=c99 -fopenmp tsvc_novec.o dummy.o common.o -lm -o ../bin/GNU/tsvc_novec_precise
+rm tsvc_novec.o tsvc_vec.o common.o dummy.o
+make[1]: Leaving directory `/Users/marco/Documents/HPCproject/Compilers-autovectorization/src'
+make: Leaving directory `/Users/marco/Documents/HPCproject/Compilers-autovectorization'
+ 
+/Users/marco/Documents/HPCproject/Compilers-autovectorization/makefiles/Makefile.GNU:19: No 'precise' math flags for GNU!
+
